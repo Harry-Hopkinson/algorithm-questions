@@ -20,3 +20,7 @@ root.right = TreeNode(7)
 root.left.left = TreeNode(1)
 root.left.right = TreeNode(3)
 invertTree(root)
+
+print(root.val)
+print(root.left.val)
+print(root.right.val)
